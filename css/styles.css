@@ -5,12 +5,14 @@
 }
 body {
   /* background-color:blue; */
-   background: linear-gradient( to right, #F45905,#FBE555,#FB9224) ; 
+
   color: #F9B208;
   font-family: "Poppins", sans-serif;
   min-height: 100vh;
 }
-
+h1{
+  font-size: 100px;
+}
 header,
 form {
   color:#1572A1;
@@ -19,12 +21,13 @@ form {
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  background-color: #F98404;
 }
 
 form input,
 form button {
   padding: 0.5rem;
-  font-size: 1rem;
+  font-size: 2.5rem;
   background-color: #fff;
   border: none;
 }
@@ -49,11 +52,12 @@ form button:hover {
 .todo-list {
   min-width: 30%;
   list-style: none;
+  background-color: #1572A1;
 }
 
 .todo {
   margin: 0.5rem;
-  background: #fff;
+  background-color: darkslategrey;
   color: #F9B208;
   font-size: 1.5rem;
   display: flex;
